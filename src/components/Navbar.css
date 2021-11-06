@@ -1,0 +1,26 @@
+.navbarWrapper {
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: black;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .logo a {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #ff4532;
+  text-decoration: underline;
+  text-decoration-color: #ff4532;
+  text-decoration-style: dotted;
+  text-underline-offset: 5px;
+}
+
+.navLinks a {
+  margin: 1rem;
+}
