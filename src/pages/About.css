@@ -1,0 +1,83 @@
+.aboutMainWrapper {
+  background-color: #000;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.aboutMainWrapper .container {
+  width: 100%;
+  /* margin: 0 2rem; */
+  padding: 0 2rem;
+  position: absolute;
+  bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutMainWrapper .container .left {
+  flex: 1;
+  max-width: 30%;
+}
+
+.aboutMainWrapper .container .left h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  margin-bottom: 1rem;
+  color: var(--mainRed);
+}
+
+.aboutMainWrapper .container .middle {
+  flex: 2;
+  /* max-width: 30%; */
+}
+
+.aboutMainWrapper .container .middle p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--mainRed);
+  /* margin-bottom: ; */
+}
+
+.aboutMainWrapper .container .right {
+  flex: 1;
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.aboutMainWrapper .container .right #contact-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.aboutMainWrapper .container .right .btn {
+  background-color: var(--spotifyGreen);
+  border: 2px solid var(--spotifyGreen);
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  width: 50%;
+  margin: 2rem 0rem;
+}
+
+#misc {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.aboutMainWrapper .container .socials {
+  position: relative;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.aboutMainWrapper .container .socials p {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
