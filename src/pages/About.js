@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import Navbar from "../components/Navbar";
+// import akshay from "../assets/images/akshay.jpg";
 
 function About() {
   var birthDate = new Date(2000, 2, 25, 0, 0, 0, 0);
@@ -58,7 +59,7 @@ function About() {
     }, delta);
   };
 
-  window.onload = function () {
+  useEffect(() => {
     var elements = document.getElementsByClassName("txt-rotate");
     for (var i = 0; i < elements.length; i++) {
       var toRotate = elements[i].getAttribute("data-rotate");
@@ -72,7 +73,23 @@ function About() {
     css.type = "text/css";
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
     document.body.appendChild(css);
-  };
+  });
+
+  // window.onload = function () {
+  //   var elements = document.getElementsByClassName("txt-rotate");
+  //   for (var i = 0; i < elements.length; i++) {
+  //     var toRotate = elements[i].getAttribute("data-rotate");
+  //     var period = elements[i].getAttribute("data-period");
+  //     if (toRotate) {
+  //       new TxtRotate(elements[i], JSON.parse(toRotate), period);
+  //     }
+  //   }
+  //   // INJECT CSS
+  //   var css = document.createElement("style");
+  //   css.type = "text/css";
+  //   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  //   document.body.appendChild(css);
+  // };
 
   return (
     <div className="aboutMainWrapper">
@@ -87,7 +104,9 @@ function About() {
           <br />
           <p>
             Being creative is my way of expressing my thoughts. Always intrigued
-            by technology. Love creating thing on the internet
+            by technology. Love creating thing on the internet. I started
+            learning development and designing as a way to create and input my
+            own ideas.
           </p>
           <br />
           <p>
@@ -97,8 +116,8 @@ function About() {
             Maybe!?
           </p>
         </div>
-        {/* <div className="middle">
-          <p>Web skills</p>
+        <div className="middle">
+          {/* <p>Web skills</p>
           <ul>
             <li>HtmL</li>
             <li>CSS</li>
@@ -110,8 +129,9 @@ function About() {
               <li>Photoshop</li>
               <li>Premiere Pro</li>
             </ul>
-          </ul>
-        </div> */}
+          </ul> */}
+          {/* <img src={akshay} alt="" /> */}
+        </div>
         <div className="right">
           <p id="contact-title">
             Need

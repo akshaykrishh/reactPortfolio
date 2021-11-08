@@ -2,6 +2,12 @@
   background-color: #000;
   max-width: 100%;
   min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
+    url("../assets/images/akshay_bg.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position-y: 30%; */
+  background-position: center 30%;
 }
 
 .aboutMainWrapper .container {
@@ -28,8 +34,11 @@
 }
 
 .aboutMainWrapper .container .middle {
-  flex: 2;
+  flex: 1;
+  /* display: flex; */
   /* max-width: 30%; */
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 .aboutMainWrapper .container .middle p {
@@ -38,6 +47,10 @@
   color: var(--mainRed);
   /* margin-bottom: ; */
 }
+
+/* .aboutMainWrapper .container .middle img {
+  width: 320px;
+} */
 
 .aboutMainWrapper .container .right {
   flex: 1;

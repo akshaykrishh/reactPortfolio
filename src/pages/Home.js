@@ -3,9 +3,10 @@ import "./Home.css";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 // import akshay from "../assets/images/akshay.jpg";
-// import qrcode from "../assets/images/qrcode.png";
 
 function Home() {
+  var currentYear = new Date().getFullYear();
+
   return (
     <div className="homeWrapper">
       <Navbar links="0" />
@@ -32,7 +33,6 @@ function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          {/* <ion-icon name="logo-github"></ion-icon> */}
           <img src={require("../assets/icons/github.png").default} alt="" />
         </a>
         <a
@@ -56,6 +56,12 @@ function Home() {
         >
           <img src={require("../assets/icons/spotify.png").default} alt="" />
         </a>
+      </div>
+      <div className="copyright">
+        <p>
+          {" "}
+          © <span>{currentYear}</span> Akshay Krishna{" "}
+        </p>
       </div>
     </div>
   );

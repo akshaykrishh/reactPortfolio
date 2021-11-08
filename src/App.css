@@ -53,3 +53,19 @@ Green Blue
 #8334af
 #edf5e1
 */
+
+.copyright {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+}
+
+.copyright p {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--spotifyGreen);
+}
+
+.copyright p span {
+  color: #ff4532;
+}

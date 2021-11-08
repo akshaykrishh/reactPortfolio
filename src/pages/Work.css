@@ -2,3 +2,62 @@
   background-color: #000;
   min-height: 100vh;
 }
+
+.featuredWorksWrapper {
+  display: flex;
+  height: 80vh;
+  /* justify-content: center;
+  align-items: center; */
+  margin: 0 2rem;
+  padding: 2rem;
+}
+
+.featuredWorksWrapper .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* max-width: 45%; */
+}
+
+.featuredWorksWrapper .left .heading #sub-title {
+  color: var(--mainRed);
+  letter-spacing: 6px;
+}
+
+.featuredWorksWrapper .left .heading h1 {
+  margin-bottom: 1.8rem;
+}
+
+.featuredWorksWrapper .left .tools {
+  margin-top: 2rem;
+}
+
+.featuredWorksWrapper .left .tools p {
+  margin-bottom: 10px;
+  color: rgb(109, 109, 109);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.featuredWorksWrapper .left .tools img {
+  width: 30px;
+  margin: 0 1rem 0 0;
+}
+
+.featuredWorksWrapper .right {
+  flex: 1;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.featuredWorksWrapper .right .featuredImgs {
+  overflow: hidden;
+  /* height: 100%; */
+}
+
+.featuredWorksWrapper .right .featuredImgs img {
+  width: 100%;
+}
