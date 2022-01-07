@@ -98,22 +98,20 @@ function About() {
         <div className="left">
           <h1>Akshay Krishna</h1>
           <p>
-            A {age} year old with a head full of dreams in the process of making
-            those dreams into reality.
+            Hello, I'm a {age} year old with a head full of dreams who is
+            currently in the process of making those dreams into reality.
           </p>
           <br />
           <p>
-            Being creative is my way of expressing my thoughts. Always intrigued
-            by technology. Love creating thing on the internet. I started
-            learning development and designing as a way to create and input my
-            own ideas.
+            Being creative is my way of expressing my thoughts. I've always been
+            intrigued by technology. Creating things on the internet is a
+            dopamine release for me.
           </p>
           <br />
           <p>
             Music is one thing I cannot live without. You can find me listening
-            or humming to some song 24/7. I love superheros and movies. I love
-            solving Sudoku and Rubiks Cube. I can play the guitar and keyboard.
-            Maybe!?
+            or humming to some song 24/7. I love movies, solving Sudoku and I
+            play games at times.
           </p>
         </div>
         <div className="middle">
@@ -134,20 +132,23 @@ function About() {
         </div>
         <div className="right">
           <p id="contact-title">
-            Need
-            <span
+            Got a <span style={{ color: "var(--mainRed)" }}>project?</span>
+            {/* Need */}
+            {/* <span
               class="txt-rotate"
               style={{ color: "var(--mainRed)" }}
               data-period="1000"
               data-rotate='[ " website?", " app?", " illustrations?", " UI designer?"]'
-            ></span>
+            ></span> */}
           </p>
           <p>Get in Touch!</p>
 
           <button className="btn">
             <a href="0">Message</a>
           </button>
-          <p id="misc">Feel free to drop in songs, movies, series, ideas.</p>
+          <p id="misc">
+            Feel free to drop in songs, movies, ideas or just a hey!
+          </p>
           <div className="socials">
             <p>You can also find me on</p>
             <div className="icons">

@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import CarouselComp from "../components/CarouselComp";
 
 function Work() {
-  var currentYear = new Date().getFullYear();
+  // var currentYear = new Date().getFullYear();
   return (
     <div className="workMainWrapper">
       <Navbar links="1" />
@@ -25,7 +25,7 @@ function Work() {
               I love creating minimalistic, eye catching designs whether it be
               websites, posters, UI. I like to include few simple animations to
               the websites as it makes the websites more lively. Impressed by my
-              work? <a href="">Get in Touch </a>
+              work? <a href="0">Get in Touch </a>
             </p>
           </div>
 
@@ -81,7 +81,7 @@ function Work() {
               loop="True"
               showIndicators="False"
               transitionTime="2000"
-              interval="5000"
+              interval="3000"
             />
           </div>
         </div>

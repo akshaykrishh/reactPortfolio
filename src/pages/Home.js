@@ -20,7 +20,7 @@ function Home() {
           </h1>
           <div className="profile-links">
             <Link to="/about">About Me</Link>
-            <Link to="/work" id="contact-btn">
+            <Link to="/#" id="contact-btn">
               Get in touch
             </Link>
             <Link to="/work">My Works</Link>

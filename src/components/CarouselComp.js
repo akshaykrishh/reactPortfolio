@@ -15,6 +15,7 @@ function CarouselComp(props) {
         showStatus={false}
         transitionTime={props.transitionTime}
         interval={props.interval}
+        autoFocus={true}
         // onChange={onChange}
         // onClickItem={onClickItem}
         // onClickThumb={onClickThumb}
